@@ -1,0 +1,11 @@
+# Ignoring bower
+bower_components/*
+
+# Ignoring node_modules
+node_modules/*
+
+# Ignoring all the minified files
+*.min.*
+
+# Ignoring the vedor folder
+public/vendor/*

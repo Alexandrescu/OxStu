@@ -28,7 +28,7 @@ function ensureAccount(req, res, next) {
   res.redirect('/');
 }
 
-exports = module.exports = function(app, passport) {
+module.exports = function(app, passport) {
   //front end
   app.get('/', require('./views/index').init);
   app.get('/about/', require('./views/about/index').init);

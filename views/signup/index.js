@@ -1,6 +1,7 @@
 'use strict';
 
 exports.init = function(req, res){
+  // This is a call to the passport js
   if (req.isAuthenticated()) {
     res.redirect(req.user.defaultReturnUrl());
   }

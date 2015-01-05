@@ -11,7 +11,6 @@ html
       div.container
         div.navbar-header
           a.navbar-brand(href='/account/')
-            img.navbar-logo(src='/media/logo-symbol-64x64.png')
             span.navbar-brand-label #{projectName}
           button.navbar-toggle.collapsed(data-toggle='collapse', data-target='.my-navbar-collapse')
             span.icon-bar
@@ -27,8 +26,7 @@ html
               |  Sign Out
 
     div.page
-      div.container
-        block body
+      block body
 
     div.footer
       div.container

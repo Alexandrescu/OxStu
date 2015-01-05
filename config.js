@@ -4,9 +4,9 @@ exports.port = process.env.PORT || 3000;
 exports.mongodb = {
   uri: 'mongodb://betaUser:fF5-gWB-S8N-uPz@ds029541.mongolab.com:29541/oxstututors' 
 };
-exports.companyName = 'Acme, Inc.';
-exports.projectName = 'Drywall';
-exports.systemEmail = 'your@email.addy';
+exports.companyName = 'A.A.';
+exports.projectName = 'OxStuTutors';
+exports.systemEmail = 'oxstututors@gmail.com';
 exports.cryptoKey = 'k3yb0ardc4t';
 exports.loginAttempts = {
   forIp: 50,
@@ -16,12 +16,12 @@ exports.loginAttempts = {
 exports.requireAccountVerification = false;
 exports.smtp = {
   from: {
-    name: process.env.SMTP_FROM_NAME || exports.projectName +' Website',
-    address: process.env.SMTP_FROM_ADDRESS || 'your@email.addy'
+    name: process.env.SMTP_FROM_NAME || exports.projectName,
+    address: process.env.SMTP_FROM_ADDRESS || 'oxstututors@gmail.com'
   },
   credentials: {
-    user: process.env.SMTP_USERNAME || 'your@email.addy',
-    password: process.env.SMTP_PASSWORD || 'bl4rg!',
+    user: process.env.SMTP_USERNAME || 'oxstututors@gmail.com',
+    password: 'b6u-yuE-JHJ-h69',
     host: process.env.SMTP_HOST || 'smtp.gmail.com',
     ssl: true
   }

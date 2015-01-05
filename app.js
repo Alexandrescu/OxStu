@@ -1,6 +1,6 @@
 'use strict';
 
-//dependencies
+// Load dependencies
 var config = require('./config'),
     express = require('express'),
     mongoStore = require('connect-mongo')(express),
@@ -10,7 +10,7 @@ var config = require('./config'),
     mongoose = require('mongoose'),
     helmet = require('helmet');
 
-//create express app
+// Create express app
 var app = express();
 
 //keep reference to config

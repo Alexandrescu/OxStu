@@ -7,6 +7,10 @@ module.exports = function(grunt) {
       vendor: {
         files: [
           {
+            expand: true, cwd: 'bower_components/angular/',
+            src: ['angular.js'], dest: 'public/vendor/angular/'
+          },
+          {
             expand: true, cwd: 'bower_components/bootstrap/',
             src: ['js/**', 'less/**'], dest: 'public/vendor/bootstrap/'
           },
